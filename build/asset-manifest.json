@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a6dcde6d.css",
+    "main.js": "./static/js/main.145c6c79.js",
+    "static/media/ronaldo.jpg": "./static/media/ronaldo.54e0d1ef2330dc4fd97b.jpg",
+    "static/media/bg.webp": "./static/media/bg.c0b90885f8aeec6d19a4.webp",
+    "static/media/congrats.jpg": "./static/media/congrats.f35a2621e555e744f052.jpg",
+    "static/media/casino.jpg": "./static/media/casino.6895e727b8a0606dc7e5.jpg",
+    "static/media/livescore.png": "./static/media/livescore.531bbdd6e021de830145.png",
+    "static/media/blackcard.png": "./static/media/blackcard.b21f5582d34c1c6dcbb9.png",
+    "static/media/tv.png": "./static/media/tv.b5fb1b4c9f9d3d1c22af.png",
+    "static/media/dt20.jpg": "./static/media/dt20.50a7a07ff1862f6cd915.jpg",
+    "static/media/anderbahar.jpg": "./static/media/anderbahar.202e0697fc2a74917f01.jpg",
+    "static/media/teen20.jpg": "./static/media/teen20.2dd6015d8945765ed407.jpg",
+    "static/media/teen.jpg": "./static/media/teen.4b3c7489ef8d5ae7bbb6.jpg",
+    "static/media/lucky7.jpg": "./static/media/lucky7.933eb9bc391ced5427c7.jpg",
+    "static/media/anthony.jpg": "./static/media/anthony.bd51c701143ba5cda5fd.jpg",
+    "index.html": "./index.html",
+    "static/media/logo.svg": "./static/media/logo.31df0ce844b23422622ae8466175717d.svg",
+    "main.a6dcde6d.css.map": "./static/css/main.a6dcde6d.css.map",
+    "main.145c6c79.js.map": "./static/js/main.145c6c79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6dcde6d.css",
+    "static/js/main.145c6c79.js"
+  ]
+}

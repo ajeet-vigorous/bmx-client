@@ -1,0 +1,44 @@
+https://bsf1010.pro/v1/api/lucky7AData
+
+
+@tokendadmin= Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGQyNDNkMTQ2NDU5MWIyYzhhY2RlZjciLCJ1c2VybmFtZSI6ImNsaWVudC4uT1cxMDAwIiwibmFtZSI6ImNsaWVudC4uT1cxMDAwIiwidXNlclR5cGUiOiJjbGllbnQiLCJpYXQiOjE2OTE1Nzg2NzMsImV4cCI6MTY5MTY2NTA3M30.anzQ_DBvXVez8JpZUWtsC_kB_bdM7gnFZkktYEDeJA0
+
+### Term and condition API 
+GET https://bsf1010.pro/v1/api/lucky7AData HTTP/1.1
+Content-type: application/json
+
+
+
+### Term and condition API 
+PATCH  https://client-rest-api.vercel.app/v1/user/userUpdate HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGQyNDNkMTQ2NDU5MWIyYzhhY2RlZjciLCJ1c2VybmFtZSI6ImNsaWVudC4uT1cxMDAwIiwibmFtZSI6ImNsaWVudC4uT1cxMDAwIiwidXNlclR5cGUiOiJjbGllbnQiLCJpYXQiOjE2OTE1Nzg5OTMsImV4cCI6MTY5MTY2NTM5M30.KTE-x9Cg0us3eVfqDLE62hSnlzC6bnG86b5GSg84wB8
+
+{"userId":"64d243d1464591b2c8acdef7","betChipsData":{"1000":1000,"2000":2000,"5000":5000,"10000":10000,"20000":20000,"50000":50000,"100000":100000,"250000":250000}}
+
+
+### Term and condition API 
+POST  https://client-rest-api.vercel.app/v1/user/login HTTP/1.1
+Content-type: application/json
+
+
+
+{
+    "username":"client..OW1000",
+    "password":"1122"
+}
+
+### Term and condition API 
+PATCH  https://client-rest-api.vercel.app/v1/user/updateUserPassword HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGQyNDNkMTQ2NDU5MWIyYzhhY2RlZjciLCJ1c2VybmFtZSI6ImNsaWVudC4uT1cxMDAwIiwibmFtZSI6ImNsaWVudC4uT1cxMDAwIiwidXNlclR5cGUiOiJjbGllbnQiLCJpYXQiOjE2OTE1ODEzODcsImV4cCI6MTY5MTY2Nzc4N30.Jo_6xhZoJmwk0DEaQoQ5hXwGiguPldAvy320vSW9iBk
+
+
+
+{
+      "password": "1122",
+      "oldPassword":"1122",
+      "isTransaction": true,
+    #   "transactionPassword":"1097953",
+      "userId":"64d243d1464591b2c8acdef7"
+}

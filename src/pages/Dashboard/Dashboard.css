@@ -1,0 +1,261 @@
+.main-body {
+    display: flex;
+}
+
+@media (max-width: 900px) {
+    .main-body {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+/* slider */
+
+.slider-main-div {
+    width: 55%;
+    margin-left: 1rem;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 7px;
+    height: 7px;
+    border-radius: 25px;
+}
+
+.carosalsize {
+    width: 100%;
+}
+
+/* .carousalalign {
+    display: flex;
+    justify-content: center;
+} */
+
+.carousel-item {
+    float: left;
+}
+
+@media(min-width: 320px) and (max-width: 400px) {
+    .carousel-item{
+        height: 150px;
+    }
+    .carousel-item>img{
+        height: 150px;
+    }
+}
+
+@media (max-width: 900px) {
+    .slider-main-div {
+        width: 100%;
+        margin-left: 0rem;
+        /* z-index: 1; */
+    }
+}
+
+
+
+
+
+/* game-section */
+
+.cricket-icon {
+    background: linear-gradient(to right, #2f5b69 0, #47889e 100%);
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cricket-icon-main {
+    border: 1px solid black;
+}
+
+.cricket-icon>span {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.back-cell {
+    display: flex;
+    text-align: right;
+    width: 40%;
+    float: right;
+}
+
+@media (max-width: 500px) {
+    .back-cell {
+        width: 100%;
+    }
+}
+
+.back-cell>span {
+    color: #fff;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: text-bottom;
+    font-weight: bold;
+    margin: 10px 1px;
+    border-radius: 5px;
+    background-color: #46666c;
+    padding: 5px;
+    width: 40%;
+}
+
+@media (max-width: 500px) {
+    .back-cell>span {
+        font-size: 16px;
+        margin: 10px 5px;
+        padding: 0px;
+    }
+}
+
+
+/* .back-cell>span {
+    width: 45px;
+
+    background-color: #46666c;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: text-bottom;
+    font-weight: bold;
+    margin: 10px 1px;
+    border-radius: 5px;
+} */
+
+.back-cell> :nth-child(7) {
+    background: red;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.match-name {
+    width: 50%;
+    display: flex;
+}
+
+.imagesize {
+    width: 40px;
+    height: 40px;
+}
+
+.matchname {
+    color: #007bff;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 2%;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 3px 0px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.matchdate {
+    color: #92cd00;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 5%;
+    white-space: nowrap;
+}
+
+.about-matches {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+
+.mobileflex {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+@media (max-width: 900px) {
+    .about-matches {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 500px) {
+    .mobileflex {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-matches {
+        display: block;
+        height: 80px;
+    }
+}
+
+
+
+
+/* rightside bar */
+
+.rightbar-main {
+
+    width: 36%;
+    margin-left: 0.5rem;
+}
+
+.accordion-header,
+.accordion-button:not(.collapsed) {
+    margin-bottom: 0;
+    background: linear-gradient(90deg, #ffc21d 0, rgba(255, 255, 255, 0) 100%);
+    color: #212529;
+}
+
+.accordion-button {
+    margin: 0px;
+    background: linear-gradient(90deg, #ffc21d 0, rgba(255, 255, 255, 0) 100%);
+    color: #212529;
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+}
+
+.accordion-item {
+    background: transparent;
+}
+
+.accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+@media (max-width: 900px) {
+    .rightbar-main {
+        display: block;
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .m-hide {
+        display: none;
+    }
+}
